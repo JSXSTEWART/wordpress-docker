@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wordpressdockerfunnyhawking:
+    image: wordpressdockerfunnyhawking
+    build:
+      context: .
+      dockerfile: ./Dockerfile
